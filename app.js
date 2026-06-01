@@ -1,5 +1,5 @@
 // Paste your exact Render web URL below, keeping the "/api/portfolio" at the end!
-const BACKEND_URL = "https://portfolio-backend-c244.onrender.com/";
+const BACKEND_URL = "https://portfolio-backend-c244.onrender.com/api/portfolio";
 
 async function loadPortfolioData() {
     try {
