@@ -13,6 +13,11 @@ async function loadPortfolioData() {
         document.getElementById('user-location').innerText = data.contact.location;
         document.getElementById('user-email').innerText = data.contact.email;
 
+        // This sets the clickable web link for your GitHub button
+        document.getElementById('github').href = data.contact.github;
+
+
+
         // Load Skills List
         const skillsUl = document.getElementById('skills-list');
         data.skills.forEach(skill => {
